@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Add Recipe - Recipe Planner</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="../manifest.json">
+</head>
+<body>
+    <div class="container" style="margin-top: 6rem;">
+        <h4 class="center-align">Add New Recipe</h4>
+
+        <form id="add-recipe-form">
+            <div class="input-field">
+                <input type="text" id="recipe-title" required>
+                <label for="recipe-title">Recipe Title</label>
+            </div>
+
+            <div class="input-field">
+                <textarea id="recipe-ingredients" class="materialize-textarea" required></textarea>
+                <label for="recipe-ingredients">Ingredients (comma-separated)</label>
+            </div>
+
+            <div class="input-field">
+                <textarea id="recipe-steps" class="materialize-textarea" required></textarea>
+                <label for="recipe-steps">Steps (separate each step with a semicolon)</label>
+            </div>
+
+            <div class="center-align" style="margin-top: 2rem;">
+                <button type="submit" class="btn teal waves-effect waves-light">Add Recipe</button>
+            </div>
+        </form>
+
+        <div id="form-message" class="center-align" style="margin-top: 1rem;"></div>
+    </div>
+
+    <!-- Materialize.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Navbar.js script -->
+    <script src="../js/navbar.js"></script>
+    <!-- add-recipe.js -->
+    <script src="../js/add-recipe.js"></script>
+
+</body>
+</html>

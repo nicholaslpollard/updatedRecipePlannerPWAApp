@@ -1,0 +1,31 @@
+[
+  {
+    "id": "Pasta",
+    "title": "Pasta Primavera",
+    "ingredients": ["1 lb pasta", "2 tbsp olive oil", "1 cup cherry tomatoes"],
+    "portions": 2,
+    "steps": ["Boil pasta", "Sauté vegetables", "Combine pasta and vegetables"]
+  },
+  {
+    "id": "Pizza",
+    "title": "72-Hour Cold Ferment NY-Style Pizza Dough",
+    "ingredients": [
+      "1134g bread flour",
+      "737g water (65% hydration)",
+      "22g salt",
+      "3g sugar",
+      "17g olive oil",
+      "2g active dry yeast"
+    ],
+    "portions": 3,
+    "steps": [
+      "Mix flour, water, yeast, salt, sugar, and olive oil until dough forms",
+      "Knead dough for 10-12 minutes until smooth and elastic",
+      "Divide dough into three balls (two 600g, one 650g)",
+      "Place in airtight container and refrigerate for 48-72 hours for cold ferment",
+      "Remove from fridge 1-2 hours before baking",
+      "Preheat oven with pizza stone under broil setting",
+      "Stretch dough by hand, add toppings, and bake for 7 minutes"
+    ]
+  }
+]

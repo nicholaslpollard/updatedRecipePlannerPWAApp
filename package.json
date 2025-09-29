@@ -1,0 +1,16 @@
+{
+  "name": "recipe-planner-pwa-app",
+  "version": "1.0.0",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nicholas Pollard",
+  "license": "ISC",
+  "description": "PWA App Prototype for INF 654 Fall 2025",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
