@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Buy List - Recipe Planner</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="../manifest.json">
+</head>
+<body>
+
+    <div class="container" style="margin-top: 6rem;">
+        <h4 class="center-align">Build Your Grocery List</h4>
+        <div class="row" id="recipe-selection"></div>
+
+        <div class="center-align" style="margin: 2rem 0;">
+            <button id="generate-list" class="btn-large orange waves-effect waves-light">Generate Grocery List</button>
+        </div>
+
+        <div id="grocery-list" class="section" style="display:none;">
+            <h5 class="center-align">Your Grocery List</h5>
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th>Ingredient</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody id="grocery-items"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Materialize.js script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- buy-list.js script -->
+    <script src="../js/buy-list.js"></script>
+    <!-- Navbar.JS script -->
+    <script src="../js/navbar.js"></script>
+    <!-- Link to Service Worker Registration -->
+    <script src="../js/service-worker-register.js"></script> 
+
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+{
+    "name": "Recipe Planner",
+    "short_name": "Recipes",
+    "description": "Organize your recipes and build your grocery list easily.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#009688",
+    "icons": [
+        {
+            "src": "/img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
